@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="equipos.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.8.1/font/bootstrap-icons.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,400;0,700;1,400;1,700|Montserrat:ital,wght@0,400;0,700;1,400;1,700|Raleway:ital,wght@0,400;0,700;1,400;1,700|Orbitron:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700|Fira+Sans+Condensed:ital,wght@0,400;1,400;1,700|Speedy2|Raceway|Nascar" />
+	<title>Cdosa Oftalmología</title>
+    <!-- <link rel="icon" href="/img/" sizes="32x32" type="image/png"> -->
+</head>
+<body>
+  <header>
+    <div class="barra-top" id="barra-top_id">
+     <div class="links-barra-top"> 
+         <ul class="ul-menu-top">
+         <li class="llamar-barra">Llamar <i class="bi bi-chevron-down icon-rotate"></i>
+           <ul class="submenu">
+            <li><a href="tel:+222455200" style="color:#130e33 !important;">Las condes: <br> 2 2245 5200</a></li>
+            <li><a href="tel:+222462373" style="color:#130e33 !important;">Las condes: <br> 2 2246 2373</a></li>
+            <li><a href="tel:+322450350" style="color:#130e33 !important;">Viña del mar: <br> 3 2245 0350</a></li>
+            <li><a href="tel:+452240501" style="color:#130e33 !important;">Temuco: <br> 4 5224 0501</a></li>
+         </ul>
+         </li>
+         <a href="ubicacion_y_contacto.html"><li>Ubicación y contacto</li></a>
+        </ul>
+     </div>
+    </div>
+ 
+   <nav class="navbar navbar-expand-md navbar-expand-lg bg-transparent" id="nav">
+   <div class="container-fluid">
+     <a class="navbar-brand" href="home_page.html"><img src="./img/logo_blanco.png" alt="logo"></a>
+     <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+       <svg xmlns="http://www.w3.org/2000/svg" width="42" height="42" fill="currentColor" class="bi bi-list text-white" viewBox="0 0 16 16">
+         <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+       </svg>    
+     </button>
+     
+     <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+       <div class="offcanvas-header">
+         <h5 class="offcanvas-title text-light" id="offcanvasNavbarLabel">Menú</h5>
+         <button type="button" class="close" data-bs-dismiss="offcanvas" aria-label="Close">
+           <svg xmlns="http://www.w3.org/2000/svg" width="42" height="42" fill="currentColor" class="bi bi-x" viewBox="0 0 16 16">
+             <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
+           </svg>
+         </button>
+       </div>
+       <div class="offcanvas-body">
+         <ul class="navbar-nav justify-content-end flex-grow-1 p-0 m-0">
+ 
+           <li class="nav-item color-bg-nav">
+             <a id="categoria" class="nav-navegacion px-lg-2 px-md-2 " href="home_page.html" role="button" aria-expanded="false">
+               Inicio
+             </a>
+             <!-- <ul class="dropdown-menu desplegable">
+               <li><a class="dropdown-item des-uno" href="">Administración</a></li>
+               <li><a class="dropdown-item" href="">Mantenimiento</a></li>
+               <li><a class="dropdown-item" href="">diseño de lavandería</a></li>
+               <li><a class="dropdown-item" href="">Recaudación</a></li>
+               <li><a class="dropdown-item" href="">Pagos QR</a></li>
+             </ul> -->
+           </li>
+           
+           <li class="nav-item  color-bg-nav">
+             <a id="categoria" class="nav-navegacion px-lg-3 px-md-3 " href="equipos.html" role="button" aria-expanded="false">
+               Equipamiento
+             </a>
+             <!-- <ul class="dropdown-menu desplegable">
+               <li><a class="dropdown-item des-uno" href="">Lavadoras y Secadoras</a></li>
+               <li><a class="dropdown-item" href="">Lavadoras Comerciales</a></li>
+               <li><a class="dropdown-item" href="">Secadoras Comerciales</a></li>
+             </ul> -->
+           </li>
+ 
+           <li class="nav-item color-bg-nav">
+             <a class="nav-navegacion px-lg-3 px-md-3" aria-current="page" href="examenes.html">Exámenes</a>
+           </li>
+         
+         </ul>
+       </div>
+     </div>
+   </div>
+ </nav>
+   </header>
+<main>
+  <section class="seccion-portada">
+    
+    <div class="cont-portada-equipos" id="cover-image">
+    <div class="cont-portada-background"> 
+     <!-- <div class="background-video-container">
+       <video autoplay muted loop>
+         <source src="./video/video-mini-portada.mp4" type="video/mp4">
+         Tu navegador no soporta la reproducción de video.
+        </video>
+      </div> -->
+      <div class="opacidad-mini-portada"></div>
+        <div class="portada-background">
+            <h1 class="animate__animated animate__fadeInDown">Nuestros equipos</h1>
+          </div>
+        </div>
+        
+      </div>
+      <div class="telefonos-ubicacion-relative">
+        <div class="telefonos-ubicacion-absolute">
+       <a href="ubicacion_y_contacto.html"><li class="llamar-barra-ubicacion animate__animated animate__fadeInUp">Reservar Hora</li></a>
+      </div>
+      </div>  
+  </section>
+  <section class="seccion-equipos">
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem iure eaque iste ullam dignissimos, incidunt est vero deserunt officiis unde vel dolores, id aperiam sapiente inventore consectetur sit mollitia reprehenderit.</p>
+   
+    <!-- CARRUSEL 1 - CARRUSEL 1 -CARRUSEL 1 -CARRUSEL 1 -CARRUSEL 1 -  -->
+    <div id="carouselExample" class="carousel slide carousel-fade" data-bs-ride="carousel">
+      <div class="carousel-contenedor">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <!-- Tarjeta 1 -->
+                <div class="card card-custom">
+                  <div class="img-equipos-cont">
+                    <img src="./img/img_equipos/Equipo_7.png" class="card-img-top" alt="...">
+                  </div>
+                    <div class="card-body">
+                        <h3 class="card-title"style="font-size: 1.1rem;">Cámara Retinal TRC 50 DX, Topcon. <br> <br></h3>
+                        <!-- Button trigger modal 1 -->
+                        <button type="button" class="btn btn-primary bg-transparent text-primary" data-bs-toggle="modal" data-bs-target="#exampleModal1">
+                            Ver Detalle
+                        </button>
+                    </div>
+                </div>
+                <!-- Tarjeta 2 -->
+                <div class="card card-custom">
+                  <div class="img-equipos-cont">
+                    <img src="./img/img_equipos/Equipo_2.png" class="card-img-top" alt="...">
+                  </div>
+                    <div class="card-body">
+                        <h3 class="card-title" style="font-size: 1.1rem;">Microscopio Confoscan 4, Nidek. <br> <br></h3>
+                        <!-- Button trigger modal 2 -->
+                        <button type="button" class="btn btn-primary bg-transparent text-primary" data-bs-toggle="modal" data-bs-target="#exampleModal2">
+                            Ver Detalle
+                        </button>
+                    </div>
+                </div>
+                <!-- Tarjeta 3 -->
+                <div class="card card-custom">
+                  <div class="img-equipos-cont">
+                    <img src="./img/img_equipos/Equipo_1.png" class="card-img-top" alt="...">
+                    </div>
+                    <div class="card-body">
+                        <h3 class="card-title" style="font-size: 1.1rem;">Optos California <br> <br></h3>
+                        <!-- Button trigger modal 3 -->
+                        <button type="button" class="btn btn-primary bg-transparent text-primary" data-bs-toggle="modal" data-bs-target="#exampleModal3">
+                            Ver Detalle
+                        </button>
+                    </div>
+                </div>
+                <!-- Tarjeta 4 -->
+                <div class="card card-custom">
+                  <div class="img-equipos-cont">
+                    <img src="./img/img_equipos/Equipo_3.png" class="card-img-top" alt="...">
+                    </div>
+                    <div class="card-body">
+                        <h3 class="card-title" style="font-size: 1.1rem;">Oct-A Avanti, Optovue. <br> <br></h3>
+                        <!-- Button trigger modal 4 -->
+                        <button type="button" class="btn btn-primary bg-transparent text-primary" data-bs-toggle="modal" data-bs-target="#exampleModal4">
+                            Ver Detalle
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- CARRUSEL 2 -->
+            <div class="carousel-item">
+                <!-- Tarjeta 5 -->
+                <div class="card card-custom">
+                  <div class="img-equipos-cont">
+                    <img src="./img/img_equipos/Equipo_4.png" class="card-img-top" alt="...">
+                    </div>
+                    <div class="card-body">
+                        <h3 class="card-title" style="font-size: 1.1rem;">Ecografo Ultrasónico Ultra Scan, Topcon. <br><br></h3>
+                        <!-- Button trigger modal 5 -->
+                        <button type="button" class="btn btn-primary bg-transparent text-primary" data-bs-toggle="modal" data-bs-target="#exampleModal5">
+                            Ver Detalle
+                        </button>
+                    </div>
+                </div>
+                <!-- Tarjeta 6 -->
+                <div class="card card-custom">
+                  <div class="img-equipos-cont">
+                    <img src="./img/img_equipos/Equipo_5.png" class="card-img-top" alt="...">
+                    </div>
+                    <div class="card-body">
+                        <h3 class="card-title" style="font-size: 1.1rem;">Oct Cirrus 4000 HD, Zeiss. <br><br></h3>
+                        <!-- Button trigger modal 6 -->
+                        <button type="button" class="btn btn-primary bg-transparent text-primary" data-bs-toggle="modal" data-bs-target="#exampleModal6">
+                            Ver Detalle
+                        </button>
+                    </div>
+                </div>
+                <!-- Tarjeta 7 -->
+                <div class="card card-custom">
+                  <div class="img-equipos-cont">
+                    <img src="./img/img_equipos/Equipo_6.png" class="card-img-top" alt="...">
+                    </div>
+                    <div class="card-body">
+                        <h3 class="card-title" style="font-size: 1.1rem;">Campimetro Visual de Goldman, Marco. <br><br></h3>
+                        <!-- Button trigger modal 7 -->
+                        <button type="button" class="btn btn-primary bg-transparent text-primary" data-bs-toggle="modal" data-bs-target="#exampleModal7">
+                            Ver Detalle
+                        </button>
+                    </div>
+                </div>
+                <!-- Tarjeta 8 -->
+                <div class="card card-custom">
+                  <div class="img-equipos-cont">
+                    <img src="./img/img_equipos/Equipo_8.png" class="card-img-top" alt="...">
+                    </div>
+                    <div class="card-body">
+                        <h3 class="card-title" style="font-size: 1.1rem;">OTC Visante, Zeiss.<br><br></h3>
+                        <!-- Button trigger modal 8 -->
+                        <button type="button" class="btn btn-primary bg-transparent text-primary" data-bs-toggle="modal" data-bs-target="#exampleModal8">
+                            Ver Detalle
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- CARRUSEL 3 -->
+            <div class="carousel-item">
+                <!-- Tarjeta 9 -->
+                <div class="card card-custom">
+                  <div class="img-equipos-cont">
+                    <img src="./img/img_equipos/Equipo_10.png" class="card-img-top" alt="...">
+                    </div>
+                    <div class="card-body">
+                        <h3 class="card-title" style="font-size: 1.1rem;">Topógrafo Corneal Pentacam HR, Oculus. <br><br></h3>
+                        <!-- Button trigger modal 9 -->
+                        <button type="button" class="btn btn-primary bg-transparent text-primary" data-bs-toggle="modal" data-bs-target="#exampleModal9">
+                            Ver Detalle
+                        </button>
+                    </div>
+                </div>
+                <!-- Tarjeta 10 -->
+                <div class="card card-custom">
+                  <div class="img-equipos-cont">
+                    <img src="./img/img_equipos/Equipo_9.png" class="card-img-top" alt="...">
+                    </div>
+                    <div class="card-body">
+                        <h3 class="card-title" style="font-size: 1.1rem;">Campímetro Visual Computarizado, Zeiss. <br><br></h3>
+                        <!-- Button trigger modal 10 -->
+                        <button type="button" class="btn btn-primary bg-transparent text-primary" data-bs-toggle="modal" data-bs-target="#exampleModal10">
+                            Ver Detalle
+                        </button>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+
+      </div>
+        <a class="carousel-control-prev" href="#carouselExample" role="button" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExample" role="button" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </a>
+    </div>
+
+  <!-- Modal 1 - Modal 1 - Modal 1 -->
+<div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-dialog-custom modal-fullscreen">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h3 class="modal-title fs-5" id="exampleModalLabel">Cámara Retinal TRC 50 DX, Topcon.</h3>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <img src="./img/img_equipos/equipos_modal/modal-maquina-1.png" class="card-img-top" alt="...">
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Cerrar</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Modal 2 - Modal 2 - Modal 2 -->
+<div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-dialog-custom modal-fullscreen">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h3 class="modal-title fs-5" id="exampleModalLabel">Microscopio Confocal Confoscan 4, Nidek.</h3>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <img src="./img/img_equipos/equipos_modal/modal-maquina-2.png" class="card-img-top" alt="...">
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Cerrar</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Modal 3 - Modal 3 - Modal 3 -->
+<div class="modal fade" id="exampleModal3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-dialog-custom modal-fullscreen">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h3 class="modal-title fs-5" id="exampleModalLabel">Optos California</h3>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <img src="./img/img_equipos/equipos_modal/modal-maquina-3.png" class="card-img-top" alt="...">
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Cerrar</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Modal 4 - Modal 4 - Modal 4 -->
+<div class="modal fade" id="exampleModal4" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-dialog-custom modal-fullscreen">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h3 class="modal-title fs-5" id="exampleModalLabel">Oct-A Avanti, Optovue.</h3>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <img src="./img/img_equipos/equipos_modal/modal-maquina-4.png" class="card-img-top" alt="...">
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Cerrar</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Modal 5 - Modal 5 - Modal 5 -->
+<div class="modal fade" id="exampleModal5" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-dialog-custom modal-fullscreen">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h3 class="modal-title fs-5" id="exampleModalLabel">Ecografo Ultrasónico Ultra Scan, Topcon. </h3>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <img src="./img/img_equipos/equipos_modal/modal-maquina-5.png" class="card-img-top" alt="...">
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Cerrar</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Modal 6 - Modal 6 - Modal 6 -->
+<div class="modal fade" id="exampleModal6" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-dialog-custom modal-fullscreen">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h3 class="modal-title fs-5" id="exampleModalLabel">Oct Cirrus 4000 HD, Zeiss.</h3>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <img src="./img/img_equipos/equipos_modal/modal-maquina-6.png" class="card-img-top" alt="...">
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Cerrar</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Modal 7 - Modal 7 - Modal 7 -->
+<div class="modal fade" id="exampleModal7" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-dialog-custom modal-fullscreen">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h3 class="modal-title fs-5" id="exampleModalLabel">Campimetro Visual Goldman</h3>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <img src="./img/img_equipos/equipos_modal/modal-maquina-7.png" class="card-img-top" alt="...">
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Cerrar</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Modal 8 - Modal 8 - Modal 8 -->
+<div class="modal fade" id="exampleModal8" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-dialog-custom modal-fullscreen">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h3 class="modal-title fs-5" id="exampleModalLabel">OTC Visante, Zeiss.</h3>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <img src="./img/img_equipos/equipos_modal/modal-maquina-8.png" class="card-img-top" alt="...">
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Cerrar</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Modal 9 - Modal 9 - Modal 9 -->
+<div class="modal fade" id="exampleModal9" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-dialog-custom modal-fullscreen">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h3 class="modal-title fs-5" id="exampleModalLabel">Topógrafo Corneal Pentacam HR, Oculus.</h3>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <img src="./img/img_equipos/equipos_modal/modal-maquina-9.png" class="card-img-top" alt="...">
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Cerrar</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Modal 10 - Modal 10 - Modal 10 -->
+<div class="modal fade" id="exampleModal10" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-dialog-custom modal-fullscreen">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h3 class="modal-title fs-5" id="exampleModalLabel">Campímetro Visual Computarizado, Zeiss.</h3>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <img src="./img/img_equipos/equipos_modal/modal-maquina-10.png" class="card-img-top" alt="...">
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Cerrar</button>
+      </div>
+    </div>
+  </div>
+</div>
+</section>
+
+</main>
+<footer>
+<div class="cont-footer"></div>
+        <div class="cont-elemetos-footer">
+          <div class="footer-img-cont">
+          <img src="./img/logo_blanco.png" width="300px" alt="">
+        </div>
+        <div class="cont-ul-footer">
+          <div class="contenedor-logo-footer">
+          <ul id="footer-texts" class="cont-lista-footer">
+            <h4 style="color: white;">Navegación</h4>
+            <li><a href="home_page.html">Inicio</a></li>
+            <li><a href="equipos.html">Equipamiento</a></li>
+            <li><a href="examenes.html">Exámenes</a></li>
+            <li><a href="ubicacion_y_contacto.html">Contactos</a></li>
+          </ul>
+        </div>
+          <div class="contenedor-logo-footer logo-footer-2">
+            <ul id="footer-texts" class="cont-lista-footer">
+              <h4 style="color: white;">Ubicaciones</h4>
+              <li><a href="ubicacion_y_contacto.html">Las Condes, Santiago.</a></li>
+              <li><a href="ubicacion_y_contacto.html">Viña del mar</a></li>
+              <li><a href="ubicacion_y_contacto.html">Temuco</a></li>
+            </ul>
+        </div>
+        <div class="contenedor-logo-footer logo-footer-2 logo-footer-3">
+          <ul id="footer-texts" class="cont-lista-footer mesa-central">
+            <h4 style="color: white;">Te ayudamos</h4>
+            <li><a href="tel:+222455200">Mesa central <br>+56 2 2245 5200</a></li>
+            <li><a href="tel:+222462373">Reserva de hora <br>+56 2 2246 2373</a></li>
+           
+          </ul>
+      </div>
+    </div>
+        </div>
+        <div class="derechos_pie">
+        <p>Copyright © 2024 Centro de Diagnóstico Oftalmológicos. Todos los derechos reservados.</p>
+      </div>
+    </footer>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+<script src="equipos.js"></script>
+
+
+</body>
+</html>
